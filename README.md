@@ -47,49 +47,50 @@
 
 ### autoPlay
 
-说明：是否自动滚动
-必选项：否
-类型：boolean
-取值范围：true|false
-默认值：false
+说明：是否自动滚动  
+必选项：否  
+类型：boolean   
+取值范围：true|false    
+默认值：false   
 
 ### effect
 
-说明：效果 || left：左滚动；|| leftLoop：左循环滚动；
-必选项：否
-类型：string
-取值范围：left|leftLoop
-默认值：left
+说明：效果 || left：左滚动；|| leftLoop：左循环滚动；   
+必选项：否  
+类型：string    
+取值范围：left|leftLoop 
+默认值：left    
 
 ### delayTime
 
-说明：切换效果持续时间（执行一次效果用多少毫秒）
-必选项：否
-类型：number
-取值范围：0-9999
-默认值：200
+说明：切换效果持续时间（执行一次效果用多少毫秒）    
+必选项：否  
+类型：number    
+取值范围：0-9999    
+默认值：200 
 
 ### interTime
 
-说明：自动运行间隔（隔多少毫秒后执行下一个效果）
-必选项：否
-类型：number
-取值范围：0-9999
-默认值：2500
+说明：自动运行间隔（隔多少毫秒后执行下一个效果）    
+必选项：否  
+类型：number    
+取值范围：0-9999    
+默认值：2500    
 
 ### defaultIndex
 
-说明：默认的当前位置索引。0是第一个； defaultIndex:1 时，相当于从第2个开始执行
-必选项：否
-类型：number
-默认值：0
+说明：默认的当前位置索引。0是第一个； defaultIndex:1 时，相当于从第2个开始执行  
+必选项：否  
+类型：number    
+默认值：0   
 
 ### titOnClassName
 
-说明：当前titCell位置自动增加的class名称
-必选项：否
-类型：string
-默认值：on
+说明：当前titCell位置自动增加的class名称    
+必选项：否  
+类型：string    
+默认值：on  
 
 ## 注意
-属性可以不填
+
+属性可以不填    
